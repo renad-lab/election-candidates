@@ -1,9 +1,11 @@
 import React from "react";
-import NavIcon from "../assets/image.png";
+import Image from "../assets/image.png";
+import "./Navbar.css";
+
 function Navbar() {
   return (
-    <nav>
-      <img className="img" src="../assets/image.png" />
+    <nav className="nav">
+      <img src={Image} style={{ width: "50px", height: "50px" }} />
     </nav>
   );
 }

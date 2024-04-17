@@ -47,8 +47,8 @@ function App() {
           <Card key={index} name={name} image="../assets/person.jpg" />
         ))}
       </div>
-      <h1>Candidate Names List</h1>
-      <List names={candidateNames} />
+      {/* <h1>Candidate Names List</h1>
+      <List names={candidateNames} /> */}
     </div>
   );
 }

@@ -1,9 +1,12 @@
 .Candidate-card {
   background-color: white;
   border-radius: 25px;
-  padding-top: 20px;
+  padding: 20px 20px;
+  width: 350px;
+  height: 300px;
 }
 
 h2 {
   color: black;
+  font-size: small;
 }

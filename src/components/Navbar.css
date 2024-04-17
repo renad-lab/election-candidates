@@ -1,0 +1,11 @@
+.nav {
+  height: 50px;
+  background-color: #152b5e;
+  display: flex;
+}
+
+img {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
