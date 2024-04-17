@@ -1,9 +1,11 @@
-import React from 'react'
-
-const Navbar = () => {
+import React from "react";
+import NavIcon from "../assets/image.png";
+function Navbar() {
   return (
-    <div>Navbar</div>
-  )
+    <nav>
+      <img className="img" src="../assets/image.png" />
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
