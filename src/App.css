@@ -41,9 +41,18 @@
   color: #888;
 } */
 
-.Card-container {
+/* .Card-container {
   display: flex;
   margin-right: 20px;
   wrap: wrap;
   gap: 20px;
+} */
+
+.Card-container {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 10px;
 }
