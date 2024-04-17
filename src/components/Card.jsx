@@ -8,7 +8,7 @@ function Card({ name, image }) {
       <img
         src={DefaultIcon}
         alt="Candidate"
-        style={{ width: "100px", height: "100px" }}
+        style={{ width: "150px", height: "150px" }}
       />
       <h2>{name}</h2>
     </div>
